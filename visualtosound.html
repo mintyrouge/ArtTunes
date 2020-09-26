@@ -4,18 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://www.marvinj.org/releases/marvinj-0.9.js"></script>
+  <script src="script.js"></script> 
+  <style>
+      main{
+        text-align: center;
+      }
+      label{
+          background-color: #193c9b;
+          padding: 2px 5px;
+          border: 2px solid#193c9b;
+          border-radius: 30px;
+          color: white;
+      }
+      label:hover{
+          color: white;
+          background-color: #1c1274;
+          border: 2px solid #1c1274;
+      }
+  </style>
 </head>
 <header>
         <h1><img src="logo.png" alt="Art Tunes" class="logo"></h1>
 </header>
 
 <body>
-
-<form action="/action_page.php">
+<main>
+<!-- <form action="/action_page.php">
   <input type="file" id="myFile" name="filename">
   <input type="submit">
-</form>
-    
+</form> -->
+<p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+<p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+<p><img id="output" width="20%" height="20%"/></p>
+
+<canvas id="canvas" width="1000px" height="1000px"></canvas>
+</main>
+
+
 </body>
 <footer> © ShellHacks 2020 </footer>
 </html> 
