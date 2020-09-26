@@ -36,6 +36,11 @@ h1      {font-family: Tangerine, Helvetica, sans-serif;
         }
 
 
+        form {
+            text-align: center;
+        }
+
+
 footer { position: fixed;
     left: 0;
     bottom: 0;
