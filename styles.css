@@ -51,6 +51,14 @@ h1      {font-family: Tangerine, Helvetica, sans-serif;
             width: 100%;
         }
 
+        img.size {
+                width: 25%;
+        }
+
+        canvas {
+            float: right;
+        }
+
 
 footer { position: fixed;
     left: 0;
