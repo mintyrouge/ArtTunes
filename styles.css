@@ -1,0 +1,52 @@
+
+body    {
+    background-image: linear-gradient( white, #53cae7);}
+
+header  {
+        width: 100%;
+        height: 25%;
+        margin: auto;
+    position: top;}
+
+.logo   {width: 20%;
+        height: 20%;
+        }     
+
+h1      {font-family: Tangerine, Helvetica, sans-serif;
+        text-align: center;
+        margin: auto;
+        font-size: 300%;
+        padding: 1%;
+        }
+
+        div {
+            height: 50%;
+            text-align: center;
+            display: block;
+            
+            margin-left: 30%;
+            margin-right: 30%;
+            padding: 10%;
+        }
+
+        img {
+            width: 75%;
+            height: 75%;
+            border-radius: 25px;;
+        }
+
+
+footer { position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    background-color: rgb(255, 255, 255);
+    
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 150%;
+    padding: 5px;
+        }
+
+html {height: 100%;}
