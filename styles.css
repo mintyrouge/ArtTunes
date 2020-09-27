@@ -30,12 +30,7 @@ h1      {font-family: Martina, Helvetica, sans-serif;
             
             margin-left: 40%;
             margin-right: 30%;
-            margin-bottom: 30%;
             
-        }
-
-        div {
-
         }
 
         img.home {
@@ -57,7 +52,9 @@ h1      {font-family: Martina, Helvetica, sans-serif;
         }
 
         img.size {
-                width: 25%;
+                width: 500px;
+                height: 500px;
+                padding: 50px;
         }
 
         .card {
@@ -106,6 +103,7 @@ footer { position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 50px;
 
     background-color: rgb(255, 255, 255);
     
