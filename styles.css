@@ -56,7 +56,8 @@ h1      {font-family: Tangerine, Helvetica, sans-serif;
         }
 
         canvas {
-            float: right;
+            display: "none";
+            text-align: center;
         }
 
 
