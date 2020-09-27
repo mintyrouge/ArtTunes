@@ -84,12 +84,20 @@ h1      {font-family: Martina, Helvetica, sans-serif;
                 margin: auto;
           }
           
-          /* Add rounded corners to the top left and the top right corner of the image */
+          
           img {
             border-radius: 25px;
             height: 250px;
             width: 250px;
             padding: 10px;
+          }
+
+          canvas {
+              float: right;
+              border-radius: 25px;
+              height: 30%;
+              width: 30%;
+              margin-right: 25%;
           }
 
 
