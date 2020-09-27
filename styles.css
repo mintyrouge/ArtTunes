@@ -1,6 +1,10 @@
 
 body    {
-    background-image: linear-gradient( white, #53cae7);}
+    background-image: linear-gradient( white, #53cae7);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
 
 header  {
         width: 100%;
@@ -12,33 +16,80 @@ header  {
         height: 20%;
         }     
 
-h1      {font-family: Tangerine, Helvetica, sans-serif;
+h1      {font-family: Martina, Helvetica, sans-serif;
         text-align: center;
         margin: auto;
         font-size: 300%;
         padding: 1%;
         }
 
-        div {
-            height: 50%;
-            text-align: center;
-            display: block;
+        div.img1 {
             
-            margin-left: 30%;
+            text-align: center;
+            width: 20%;
+            
+            margin-left: 40%;
             margin-right: 30%;
-            padding: 10%;
+            margin-bottom: 30%;
+            margin-top: 5%;
+            
         }
 
-        img {
+        div {
+
+        }
+
+        img.home {
             width: 75%;
             height: 75%;
-            border-radius: 25px;;
+            padding: 20px;
+            border-radius: 25px;
+            
         }
 
 
         form {
             text-align: center;
         }
+
+        label {
+            height: 100%;
+            width: 100%;
+        }
+
+        img.size {
+                width: 25%;
+        }
+
+        .card {
+            border-style: double;
+            background-image: linear-gradient(#53cae7, white);
+            width: auto;
+            height: auto;
+            text-align: center;
+            margin: auto;
+          }
+
+          .card-header {
+            font-family: Martina, Helvetica, sans-serif;
+            font-size: 150%;
+          }
+
+          .card-group {
+              display: flex;
+          }
+
+          .card-body {
+                margin: auto;
+          }
+          
+          /* Add rounded corners to the top left and the top right corner of the image */
+          img {
+            border-radius: 25px;
+            height: 250px;
+            width: 250px;
+            padding: 10px;
+          }
 
 
 footer { position: fixed;
@@ -49,7 +100,7 @@ footer { position: fixed;
 
     background-color: rgb(255, 255, 255);
     
-    font-family: Tangerine, Helvetica, sans-serif;
+    font-family: Martina, Helvetica, sans-serif;
     font-size: 150%;
     padding: 5px;
         }
