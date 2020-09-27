@@ -1,7 +1,3 @@
-// function upload(){
-//     alert("hi");
-// }
-
 var loadFile = function(event) {
     var myImage = document.getElementById('output');
     myImage.src = URL.createObjectURL(event.target.files[0]);
@@ -39,6 +35,9 @@ var loadFile = function(event) {
         //thresholding();
         //edgeDetection1();
         edgeDetection2();
+        if ($("#uploadAudio").css("opacity") == "0" && myImage.src != ""){
+            $("#uploadAudio").animate({opacity: "1"});
+        }
     });
     
 };
